@@ -13,7 +13,7 @@ export default class extends React.Component {
             the students of UChicago to comment on the level of fullness either of the
             on-campus gyms has. Thus by visiting and commenting on gymjam, the UChicago
             meathead community can effectively see at all times just how crowded Ratner or
-            Crown is, if there are any events going on, and if one can find a rack to squat in.
+            Crown is, if there are any events going on, and if one can find some hoops to ball with.
           </div>
         </div>
         <style global jsx>{`
