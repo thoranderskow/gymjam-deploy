@@ -27,6 +27,7 @@ class Login extends React.Component {
       backgroundColor: 'red',
       justifyContent: 'flex-end',
     };
+    console.log('yo');
     console.log(process.env.VERCEL_URL);
     return(
       <container className='flex'>
