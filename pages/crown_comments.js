@@ -20,8 +20,8 @@ function Create_commentbox(props) {
   return(
     <div className='flex'>
       <div className='comlev'>
-        <div className='bold'>crowd level: {props.c_level}</div>
-        <div className='bold'>Racks available? {props.racks ? 'yes' : 'no'}</div>
+        <div className='bold'>Crowd level: {props.c_level}</div>
+        <div className='bold'>Hoops available? {props.racks ? 'yes' : 'no'}</div>
       </div>
       <div className='indent'>
         {getClockTime((new Date (props.time))).toString()}
