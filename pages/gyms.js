@@ -21,8 +21,8 @@ function Create_commentbox(props) {
   return(
     <div className='flex'>
       <div className='comlev'>
-        <div className='bold'>crowd level: {props.c_level}</div>
-        <div className='bold'>Racks available? {props.racks ? 'yes' : 'no'}</div>
+        <div className='bold'>Crowd level: {props.c_level}</div>
+        <div className='bold'>Hoops available? {props.racks ? 'yes' : 'no'}</div>
       </div>
       <div className='indent'>
         {getClockTime((new Date (props.time))).toString()}
@@ -259,7 +259,7 @@ class C_level_buttons extends React.Component {
           </div>
         </div>
         <div className='vert'>
-          Racks Available?
+          Hoops Available?
           <button style={this.state.t_f_style} onClick={submit} type='submit'>{this.state.bool.toString()}</button>
         </div>
           <style jsx>{`
