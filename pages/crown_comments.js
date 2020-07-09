@@ -80,7 +80,7 @@ export default class extends React.Component {
     };
   }
   static async getInitialProps(obj) {
-    const res = await fetch('http://localhost:3000/api/crown')
+    const res = await fetch('https://gymjam.vercel.app/api/crown')
     const data = await res.json()
     //array is reversed for most recent to show up
     const arr = data.comments.reverse();
