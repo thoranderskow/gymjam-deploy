@@ -123,6 +123,7 @@ class Submit_button extends React.Component {
         body: JSON.stringify(obj)
       })
       this.props.func(obj, gym);
+      console.log(process.env.VERCEL_URL.tostring());
     }
 
     const enter = () => {
