@@ -91,7 +91,7 @@ class Submit_button extends React.Component {
     const err_handle = (val) => {
       if (val === '') {
         return "No comment specified"
-      } else if (val === 0) {
+      } else if (val === 0 || (val > 5 || val < 1)) {
         return "No crowd level specified"
       } else {
         return ''
